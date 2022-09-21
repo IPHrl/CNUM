@@ -1,19 +1,18 @@
-function e( x)
-  termo = 1
-  soma = 1
-  i = 1
-  while termo > 0
-    termo = termo * (x/i)
-    soma = soma + termo
-    i = i + 1
-  end
-  return [soma i]
+v=1
+
+println(v)
+
+f(x)=x^2+x+1
+
+z=f(2)
+
+println(z)
+
+function fx(x, a, b, c)
+  y(n)= a*n^2 + b*n + c
+  return y(x)
 end
 
-y = e(1)
-println(y[1])
-println(y[2])
+z= fx(1, 2, 3, 4)+1
 
-y = e(2)
-println(y[1])
-println(y[2])
+println(z)
