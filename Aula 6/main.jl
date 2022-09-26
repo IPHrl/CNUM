@@ -1,4 +1,4 @@
-include("../5/main.jl")
+using LinearAlgebra
 
 # Exercicio 4.7.2
 A = [5 1 1;
